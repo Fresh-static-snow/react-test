@@ -1,0 +1,33 @@
+.container {
+  background-image: url(../../assets/bg-cover.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  padding: 0 16px;
+}
+
+.intro {
+  display: flex;
+  max-width: 380px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.intro__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.intro__description {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 500px;
+  }
+}

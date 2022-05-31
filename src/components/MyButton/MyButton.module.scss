@@ -1,0 +1,24 @@
+.btn {
+  font-size: 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  width: 100px;
+  margin: 0 auto;
+  padding: 0;
+  border-style: none; //disable default browser styles
+  background: #f4e041;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ffe302;
+}
+
+.btn__disabled {
+  background: #b4b4b4;
+  color: white;
+  pointer-events: none;
+}

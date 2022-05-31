@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 254px;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 26px;
+}
+.image {
+  align-self: center;
+  border-radius: 100%;
+}
+
+.name {
+  margin: 20px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.info {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
