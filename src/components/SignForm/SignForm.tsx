@@ -114,7 +114,7 @@ const SignForm: FC = () => {
                   label={"Phone"}
                   error={!!errors.phone}
                   helperText={errors.phone?.message}
-                  className={styles.ass}
+                  className={styles.helpertext}
                 />
                 <div style={{ height: "26px" }}></div>
 
